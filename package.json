@@ -1,0 +1,15 @@
+{
+  "name": "responsive",
+  "version": "0.0.1",
+  "description": "Building a responsive layout with stylus, jeet and rupture",
+  "scripts": {
+    "build-css": "stylus -u jeet -u rupture css/*.styl --out static/bundle.css"
+  },
+  "author": "Brian Schemp",
+  "license": "ISC",
+  "devDependencies": {
+    "jeet": "^6.1.2",
+    "rupture": "^0.6.1",
+    "stylus": "^0.50.0"
+  }
+}
